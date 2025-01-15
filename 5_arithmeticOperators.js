@@ -1,8 +1,13 @@
-let sum = 1 + 2;       // Addition
-let difference = 3 - 4;  // Subtraction
-let product = 5 * 6;    // Multiplication
-let quotient = 7 / 8;  // Division
-let remainder = 9 % 10; // Modulus (remainder)
+//Addition
+let sum = 1 + 2;
+//Subtraction
+let difference = 3 - 4;
+//Multiplication
+let product = 5 * 6;
+//Division
+let quotient = 7 / 8;
+//Modulus (remainder)
+let remainder = 9 % 10;
 
 console.log(sum);
 console.log(difference);
