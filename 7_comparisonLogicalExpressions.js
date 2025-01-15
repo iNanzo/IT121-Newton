@@ -10,7 +10,7 @@ console.log(x < 100);   // x is less than 100
 console.log(x >= 75);   // x is greater than or equal to 75
 console.log(x <= 100);  // x is less than or equal to 100
 console.log(x && true); // x is truthy, and true is true
-console.log(x || false);// x is truthy, so this evaluates to true
+console.log(Boolean(x) || false);// x is truthy, so this evaluates to true
 console.log(!(x === 5));// x is not equal to 5, so the negation of false is true
 
 /*False Logs*/
